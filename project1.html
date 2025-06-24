@@ -1,0 +1,61 @@
+title AI-Driven Crop Disease Prediction and Management System
+
+// Define groups for better organization
+Data Collection [color: lightblue, icon: database] {
+  Sensors
+  Imagery
+  Historical Data
+  Manual Reports
+}
+
+Data Preprocessing [color: lightgreen, icon: filter] {
+  Cleaning
+  Normalization
+  Feature Extraction
+  Augmentation
+}
+
+Model Development [color: lightcoral, icon: code] {
+  Selection
+  Training
+  Validation
+  Tuning
+}
+
+Disease Prediction [color: lightyellow, icon: activity] {
+  Real-time Analysis
+  Confidence Assessment
+}
+
+Decision Support System [color: lightpurple, icon: bell] {
+  Recommendations
+  Alerts
+}
+
+Management and Intervention [color: lightgray, icon: tool] {
+  Insights
+  Resource Allocation
+}
+
+Feedback Loop [color: lightpink, icon: refresh-cw] {
+  Performance Monitoring
+  User Feedback
+  Model Refinement
+}
+
+Reporting and Visualization [color: lightorange, icon: bar-chart] {
+  Dashboard
+  Reports
+}
+
+// Define the flow
+Start [shape: oval, icon: play] > Data Collection
+Data Collection > Data Preprocessing
+Data Preprocessing > Model Development
+Model Development > Disease Prediction
+Disease Prediction > Decision Support System
+Decision Support System > Management and Intervention
+Management and Intervention > Feedback Loop
+Feedback Loop > Model Development: Model Refinement
+Feedback Loop > Reporting and Visualization
+Reporting and Visualization > End [shape: oval, icon: stop]
